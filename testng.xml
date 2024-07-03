@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite">
+    <test name="My Tests">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.saucedemo.com/"/>
+        <parameter name="keepBrowserOpen" value="false"/>
+        <classes>
+            <class name="test.SauceDemoTest"/>
+
+        </classes>
+    </test>
+</suite>
